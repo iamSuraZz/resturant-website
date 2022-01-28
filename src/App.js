@@ -1,9 +1,12 @@
 import React from 'react';
+import Restaurant from './component/Basics/Restaurant';
 
 const App = () => {
   return (
   <div>
-<h1> Let's learn ReactJs.</h1>
+
+
+  <Restaurant />
 
   </div>
   )
