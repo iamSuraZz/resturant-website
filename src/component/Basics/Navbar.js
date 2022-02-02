@@ -7,12 +7,12 @@ const Navbar = ({filterItem, menuList}) => {
 <nav className="navbar">
       <div className="btn-group">
           {
-              menuList.map(()=>{
+              menuList.map((currentElem)=>{
                   return (<button className="btn-group__item" 
-              onClick={()=>filterItem("breakfast")}>Breakfast</button>);
+              onClick={()=>filterItem(currentElem)}>{currentElem}</button>);
               })
             }
-                  
+
       </div>
   </nav>
 
