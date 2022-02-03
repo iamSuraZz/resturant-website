@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const State = () => {
   const [data, setData] = useState(0);
   useEffect(() => {
-    console.log("Helloo");
+    document.title = `Chats(${data})`;
   });
 
   return (
