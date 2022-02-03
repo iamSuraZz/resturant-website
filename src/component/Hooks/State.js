@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const State = () => {
   const [data, setData] = useState(0);
+  useEffect(() => {
+    console.log("Helloo");
+  });
+
   return (
     <>
       <p style={{ textAlign: "center", fontSize: "30px" }}>{data}</p>
