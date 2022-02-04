@@ -17,6 +17,12 @@ const Temp = () => {
           </button>
         </div>
       </div>
+      {/* Our temp card */}
+      <article className="widget">
+        <div className="weatherIcon">
+          <i className={"wi wi-day-sunny"}></i>
+        </div>
+      </article>
     </>
   );
 };
